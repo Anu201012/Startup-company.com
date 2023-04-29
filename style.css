@@ -1,0 +1,113 @@
+/* This is a comment in CSS */
+body {
+  font-family: Arial, sans-serif; /* Set the font family for the entire page */
+  background-color: #f2f2f2; /* Set the background color of the page */
+}
+
+h1 {
+  font-size: 36px; /* Set the font size of all h1 elements */
+  color: #333; /* Set the color of all h1 elements */
+  text-align: center; /* Center align all h1 elements */
+}
+
+p {
+  font-size: 18px; /* Set the font size of all p elements */
+  line-height: 1.5; /* Set the line height of all p elements */
+  margin-bottom: 20px; /* Add some margin below all p elements */
+}
+
+.button {
+  display: inline-block; /* Make the button a block element */
+  background-color: #4CAF50; /* Set the background color of the button */
+  color: white; /* Set the color of the button text */
+  padding: 12px 24px; /* Add some padding to the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add some border radius to the button */
+  font-size: 16px; /* Set the font size of the button text */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.button:hover {
+  background-color: #3e8e41; /* Change the background color of the button on hover */
+}
+/* Style the header section */
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaIjhVEPuttmOWNaqx8TyswAr5McXm4d9h1Q&usqp=CAU); /* Set the background image */
+  background-size: cover; /* Set the background image to cover the entire header */
+  background-position: center;
+  color: white; /* Set the color of the header text */
+  padding: 20px; /* Add some padding to the header */
+}
+
+/* Style the navigation menu */
+nav {
+  display: flex; /* Use flexbox to create a horizontal navigation menu */
+}
+
+nav a {
+  color: white; /* Set the color of the navigation links */
+  text-decoration: none; /* Remove the underline from the links */
+  padding: 10px 20px; /* Add some padding to the links */
+  margin-right: 10px; /* Add some margin between the links */
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #4CAF50; /* Change the background color of the links on hover */
+}
+
+/* Style the main content section */
+main {
+  max-width: 800px; /* Set a maximum width for the main content */
+  margin: 0 auto; /* Center the main content horizontally */
+  padding: 20px; /* Add some padding to the main content */
+}
+
+/* Style the footer section */
+footer {
+  background-color: #333; /* Set the background color of the footer */
+  color: white; /* Set the color of the footer text */
+  padding: 20px; /* Add some padding to the footer */
+  text-align: center; /* Center align the footer text */
+}
+/* Style the form section */
+form {
+  max-width: 600px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding to the form */
+  border: 1px solid #ccc; /* Add a border to the form */
+  border-radius: 5px; /* Add some border radius to the form */
+}
+
+form label {
+  display: block; /* Make the label a block element */
+  margin-bottom: 10px; /* Add some margin below the label */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%; /* Set the width of the input and textarea elements to 100% */
+  padding: 10px; /* Add some padding to the input and textarea elements */
+  border: 1px solid #ccc; /* Add a border to the input and textarea elements */
+  border-radius: 5px; /* Add some border radius to the input and textarea elements */
+  margin-bottom: 20px; /* Add some margin below the input and textarea elements */
+}
+
+form textarea {
+  height: 150px; /* Set the height of the textarea element */
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50; /* Set the background color of the submit button */
+  color: white; /* Set the color of the submit button text */
+  padding: 12px 24px; /* Add some padding to the submit button */
+  border: none; /* Remove the submit button border */
+  border-radius: 5px; /* Add some border radius to the submit button */
+  font-size: 16px; /* Set the font size of the submit button text */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41; /* Change the background color of the submit button on hover */
+}
